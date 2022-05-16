@@ -96,6 +96,7 @@ _default_config = {
     "expression_provider": "LocalExpressionProvider",
     "dataset_provider": "LocalDatasetProvider",
     "provider": "LocalProvider",
+    "region": "us",
     # config it in qlib.init()
     # "provider_uri" str or dict:
     #   # str
