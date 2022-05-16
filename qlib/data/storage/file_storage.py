@@ -79,7 +79,7 @@ class FileCalendarStorage(FileStorageMixin, CalendarStorage):
         self.future = future
         self._provider_uri = None if provider_uri is None else C.DataPathManager.format_provider_uri(provider_uri)
         self.enable_read_cache = True  # TODO: make it configurable
-        self.region = C["region"]
+        self.region = "us"
 
     @property
     def file_name(self) -> str:
